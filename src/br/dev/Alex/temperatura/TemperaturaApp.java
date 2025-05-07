@@ -6,10 +6,9 @@ import br.dev.Alex.temperatura.model.Temperatura;
 public class TemperaturaApp {
 	
 	public static void main(String[] args) {
-		Temperatura t1 = new Temperatura();
-		t1.setCelsius(1);
-		t1.mostrarResultado();
 		
+		//Cria um  novo objeto TelaConversor e uma variavel
+		//para utilizar os metodos da classe
 		TelaConversor tc1 = new TelaConversor();
 		tc1.criarTelaConversor();
 		
